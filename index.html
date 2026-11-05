@@ -1,680 +1,223 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
-
+<html lang="en">
+<head>
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.11.9">
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-
-
-<title>Alvin E. Lirio, MD, PhD</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Alvin E. Lirio, MD, PhD · Profile</title>
+<meta name="description" content="Alvin E. Lirio, MD, PhD. Physician-scientist in genetic epidemiology: respiratory, cardiometabolic and ocular traits.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&family=Source+Serif+4:opsz,wght@8..60,600&display=swap" rel="stylesheet">
 <style>
-/* Default styles provided by pandoc.
-** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
-*/
-span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: 1.5em;}
-div.column{flex: auto;}
-@media screen {
-div.columns{gap: min(4vw, 1.5em);}
-div.column{overflow-x: auto;}
-}
-div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-ul.task-list{list-style: none;}
-ul.task-list li input[type="checkbox"] {
-  width: 0.8em;
-  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
-  vertical-align: middle;
+:root{--red:#8c1515; --red-dark:#6f1010; --ink:#2e2d29; --muted:#5f574f; --line:#dcd8d2; --band:#f4f4f4; --fog:#f9f6ef}
+*{box-sizing:border-box}
+body{margin:0; font-family:"Source Sans 3",system-ui,-apple-system,"Segoe UI",sans-serif; color:var(--ink); background:#fff; font-size:18px; line-height:1.6}
+a{color:#006cb8; text-underline-offset:2px}
+a:hover{color:var(--red)}
+.w{max-width:1140px; margin:0 auto; padding:0 28px}
+
+.brandbar{background:var(--red); color:#fff}
+.brandbar .w{height:46px; display:flex; align-items:center; justify-content:space-between}
+.brandbar b{font-family:"Source Serif 4",Georgia,serif; font-weight:600; font-size:1.05rem; letter-spacing:.01em}
+.brandbar span{font-size:.9rem; opacity:.9}
+
+.head{background:var(--band); border-bottom:1px solid var(--line); padding:36px 0 0}
+.head .w{display:flex; gap:32px; align-items:center}
+.photo{flex:0 0 170px; width:170px; height:200px; background:#e3dfd8; border:4px solid #fff; display:flex; align-items:center; justify-content:center; font-family:"Source Serif 4",serif; font-size:3rem; color:var(--red); margin-bottom:26px; overflow:hidden}
+.photo img{width:100%; height:100%; object-fit:cover}
+.who{padding-bottom:26px}
+.who h1{font-family:"Source Serif 4",Georgia,serif; font-weight:600; font-size:2.4rem; line-height:1.15; margin:0 0 6px}
+.who .t1{font-size:1.15rem; margin:0}
+.who .t2{color:var(--muted); margin:0 0 12px}
+.who .blurb{font-size:1.05rem; max-width:62ch; margin:0}
+
+.tabs{border-bottom:1px solid var(--line); background:#fff; position:sticky; top:0; z-index:2}
+.tabs .w{display:flex; gap:4px; padding-left:12px; overflow-x:auto}
+.tabs a{display:block; padding:14px 16px 12px; color:var(--ink); text-decoration:none; font-weight:600; font-size:1rem; border-bottom:4px solid transparent; white-space:nowrap}
+.tabs a:hover{color:var(--red)}
+.tabs a.on{border-bottom-color:var(--red); color:var(--red)}
+
+.body{display:grid; grid-template-columns:1fr 300px; gap:56px; padding-top:44px; padding-bottom:60px}
+.panel{display:block}
+.js .panel{display:none}
+.js .panel.on{display:block}
+.panel h2{font-family:"Source Serif 4",Georgia,serif; font-weight:600; font-size:1.6rem; margin:0 0 16px}
+.panel h3{font-size:1.1rem; margin:26px 0 6px; font-weight:700}
+.panel p{margin:0 0 14px}
+.panel ul{padding-left:20px}
+.lbl{font-size:.82rem; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--red); margin:30px 0 10px}
+
+.item{padding:14px 0; border-bottom:1px solid var(--line)}
+.item:last-child{border-bottom:none}
+.item h3{margin:0 0 4px}
+.item .meta{color:var(--muted); font-size:.95rem}
+.pub{padding:12px 0; border-bottom:1px solid var(--line)}
+.pub .ti{font-weight:600}
+.pub .au, .pub .so{font-size:.97rem}
+.pub .so i{color:var(--muted)}
+.chip{display:inline-block; font-size:.78rem; font-weight:600; background:var(--fog); border:1px solid var(--line); color:var(--red); padding:0 7px; margin-left:6px; vertical-align:1px}
+.row{display:grid; grid-template-columns:130px 1fr; gap:18px; padding:12px 0; border-bottom:1px solid var(--line)}
+.row .when{color:var(--muted)}
+.row .where{color:var(--muted); font-size:.96rem}
+
+aside .card{border-top:4px solid var(--red); background:var(--fog); padding:18px 20px; margin-bottom:22px}
+aside h4{margin:0 0 10px; font-size:.85rem; letter-spacing:.08em; text-transform:uppercase}
+aside ul{list-style:none; padding:0; margin:0; font-size:.98rem}
+aside li{padding:4px 0}
+footer{border-top:1px solid var(--line); color:var(--muted); font-size:.9rem; padding:22px 0; text-align:center}
+
+@media (max-width:880px){
+  .head .w{flex-direction:column; align-items:flex-start; gap:16px}
+  .photo{width:120px; height:140px; flex-basis:auto; margin-bottom:0; font-size:2.2rem}
+  .who h1{font-size:1.9rem}
+  .brandbar span{display:none}
+  .tabs .w{padding-left:16px}
+  .body{grid-template-columns:1fr; gap:24px}
+  .row{grid-template-columns:1fr; gap:2px}
 }
 </style>
-
-
-<script src="quarto-nav.js"></script>
-<script src="headroom.min.js"></script>
-<script src="clipboard.min.js"></script>
-<script src="autocomplete.umd.js"></script>
-<script src="fuse.min.js"></script>
-<script src="quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="quarto.js" type="module"></script>
-<script src="tabsets.js" type="module"></script>
-<script src="scrollable-regions.js" type="module"></script>
-<script src="popper.min.js"></script>
-<script src="tippy.umd.min.js"></script>
-<link href="tippy.css" rel="stylesheet">
-<link href="quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="bootstrap.min.js"></script>
-<link href="bootstrap-icons.css" rel="stylesheet">
-<link href="bootstrap-d7f124cbe7bfb35c9e3c169073591a22.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<script id="quarto-search-options" type="application/json">{
-  "location": "navbar",
-  "copy-button": false,
-  "collapse-after": 3,
-  "panel-placement": "end",
-  "type": "overlay",
-  "limit": 50,
-  "keyboard-shortcut": [
-    "f",
-    "/",
-    "s"
-  ],
-  "show-item-context": false,
-  "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
-    "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
-  }
-}</script>
-
-
+<script>document.documentElement.classList.add('js')</script>
 </head>
+<body>
 
-<body class="nav-fixed fullcontent quarto-light"><a id="quarto-skip-link" class="visually-hidden-focusable" href="#quarto-document-content">Skip to main content</a>
+<div class="brandbar"><div class="w"><b>Alvin E. Lirio, MD, PhD</b><span>Genetic epidemiology</span></div></div>
 
-<div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark" aria-label="Site">
-      <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Alvin E. Lirio, MD, PhD</span>
-    </a>
+<header class="head">
+  <div class="w">
+    <!-- To add a photo: upload photo.jpg, then replace AL below with <img src="photo.jpg" alt="Alvin Lirio"> -->
+    <div class="photo"><img src="photo.jpg" alt="Alvin Lirio"></div>
+    <div class="who">
+      <h1>Alvin E. Lirio, MD, PhD</h1>
+      <p class="t1">Postdoctoral Research Associate</p>
+      <p class="t2">Ulverscroft Eye Unit, University of Leicester, UK</p>
+      <p class="blurb">Physician-scientist using large-scale human genomics to understand how genes, environment and lifestyle shape complex disease.</p>
+    </div>
   </div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-  <span class="navbar-toggler-icon"></span>
-</button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
-<span class="menu-text">About</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./research.html"> 
-<span class="menu-text">Research</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./publications.html"> 
-<span class="menu-text">Publications</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./talks.html"> 
-<span class="menu-text">Talks</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./cv.html"> 
-<span class="menu-text">CV</span></a>
-  </li>  
-</ul>
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item compact">
-    <a class="nav-link" href="mailto:aelirio@up.edu.ph"> <i class="bi bi-envelope" role="img" aria-label="Email">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-</ul>
-          </div> <!-- /navcollapse -->
-            <div class="quarto-navbar-tools">
-</div>
-            <div id="quarto-search" class="" title="Search"></div>
-      </div> <!-- /container-fluid -->
-    </nav>
 </header>
-<!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
-<!-- sidebar -->
-<!-- margin-sidebar -->
-    
-<!-- main -->
-<div class="quarto-about-solana column-body">
-  <div class="about-entity">
-    <div class="entity-contents">
-      <header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Alvin E. Lirio, MD, PhD</h1>
-<p class="subtitle lead">Physician-scientist · Genetic epidemiology</p>
-</div>
-<div class="quarto-title-meta">
+
+<nav class="tabs" aria-label="Sections">
+  <div class="w">
+    <a href="#bio" class="on">Bio</a>
+    <a href="#research">Research</a>
+    <a href="#publications">Publications</a>
+    <a href="#experience">Experience</a>
+    <a href="#talks">Talks</a>
   </div>
-</header> <div class="about-links">
-  <a href="mailto:aelirio@up.edu.ph" class="about-link" rel="" target="">
-    <i class="bi bi-envelope"></i>
-     <span class="about-link-text">Email</span>
-  </a>
-  <a href="/cv.html" class="about-link" rel="" target="">
-    <i class="bi bi-file-earmark-person"></i>
-     <span class="about-link-text">CV</span>
-  </a>
-  <a href="https://orcid.org/0009-0009-5490-6012" class="about-link" rel="" target="">
-    <i class="bi bi-person-badge"></i>
-     <span class="about-link-text">ORCID</span>
-  </a>
-</div>
-      <div class="about-contents"><main class="content" id="quarto-document-content" tabindex="-1">
-<div class="lead-in">
-<p>I’m a physician-scientist with a PhD in genetic epidemiology. I use large-scale human genomics and statistical genetics to understand how genes, environment and lifestyle shape complex disease.</p>
-</div>
-<p>My work centres on genome-wide association studies (GWAS) and downstream analyses in large biobanks and population cohorts, bringing together genomic, clinical and lifestyle data to find disease mechanisms and potential therapeutic targets.</p>
-<p>I trained as a doctor in the Philippines and practised as a general physician before moving into research. That clinical grounding, and my work with Filipino cohorts, drives a long-standing commitment to improving genomic representation of underrepresented populations.</p>
-<p>I’m currently a Postdoctoral Research Associate at the Ulverscroft Eye Unit, University of Leicester, UK.</p>
-<section id="interests" class="level3">
-<h3 data-anchor-id="interests">Interests</h3>
-<ul>
-<li>Respiratory and cardiometabolic population genetics</li>
-<li>Longitudinal disease trajectories and gene-by-environment interactions (smoking, diet, lifestyle, medications)</li>
-<li>Rare variant and non-coding variant analyses</li>
-<li>Multi-ancestry genomics and underrepresented populations</li>
-</ul>
-</section>
-<section id="education" class="level3">
-<h3 data-anchor-id="education">Education</h3>
-<ul>
-<li><strong>PhD, Genetic Epidemiology</strong>, University of Leicester, UK (2024)</li>
-<li><strong>Graduate Certificate, Advanced Training in Clinical Research</strong>, UCSF, USA (2019)</li>
-<li><strong>MD-MBA</strong>, Ateneo de Manila University School of Medicine and Public Health, Philippines (2016)</li>
-<li><strong>BS Biology</strong>, University of the Philippines Los Baños (2010)</li>
-</ul>
+</nav>
 
+<div class="w body">
+  <main>
+    <section class="panel on" id="bio">
+      <h2>Bio</h2>
+      <p>Alvin Lirio is a physician-scientist with a PhD in genetic epidemiology. His work centres on genome-wide association studies (GWAS) and downstream analyses in large biobanks and population cohorts, bringing together genomic, clinical and lifestyle data to find disease mechanisms and potential therapeutic targets.</p>
+      <p>He trained as a doctor in the Philippines and practised as a general physician before moving into research. His PhD at the University of Leicester examined the genetic and non-genetic determinants of respiratory traits across the life course, using UK Biobank, the EXCEED cohort and the Cebu Longitudinal Health and Nutrition Survey. He now works on the genetics of ocular traits at the Ulverscroft Eye Unit.</p>
+      <p>Grounded in clinical practice and work with Filipino cohorts, he has a long-standing commitment to improving genomic representation of underrepresented populations.</p>
+      <div class="lbl">Research interests</div>
+      <ul>
+        <li>Respiratory and cardiometabolic population genetics</li>
+        <li>Longitudinal disease trajectories and gene-by-environment interactions (smoking, diet, lifestyle, medications)</li>
+        <li>Rare variant and non-coding variant analyses</li>
+        <li>Multi-ancestry genomics and underrepresented populations</li>
+      </ul>
+    </section>
 
-</section>
-</main></div>
+    <section class="panel" id="research">
+      <h2>Research and scholarship</h2>
+      <div class="item"><h3>Longitudinal lung function decline in COPD</h3><p>A GWAS of FEV<sub>1</sub> decline in people with COPD in UK Biobank, using linked electronic health records and conditional linear mixed models to capture lung function trajectories.</p><div class="meta">Manuscript under review</div></div>
+      <div class="item"><h3>Preserved ratio impaired spirometry (PRISm)</h3><p>A genome-wide association study of PRISm, drawing on the EXCEED cohort, as part of his PhD.</p><div class="meta">European Respiratory Journal, 2023</div></div>
+      <div class="item"><h3>Asthma genetics in a Filipino cohort</h3><p>A candidate-variant association study of self-reported asthma in mothers of the Cebu Longitudinal Health and Nutrition Survey, one of Southeast Asia's longest-running population cohorts.</p><div class="meta">BMC Genomic Data, 2026</div></div>
+      <div class="item"><h3>Genetics of the fovea and photoreceptors</h3><p>Genome-scale analyses of retinal traits in UK Biobank, including foveal development and a GWAS of sub-foveal outer segment thickness in about 54,000 participants using OCT-derived phenotypes.</p><div class="meta">IOVS 2025 · medRxiv 2026 · UK-EGG 2026</div></div>
+      <div class="item"><h3>Type 2 diabetes in Filipinos</h3><p>A UCSF collaboration at the Institute of Human Genetics, NIH Philippines, on genetic, epigenetic and metagenomic determinants of type 2 diabetes.</p><div class="meta">Human Molecular Genetics, 2019</div></div>
+      <div class="lbl">Methods and tools</div>
+      <p>GWAS and post-GWAS analysis, fine-mapping, LD-score regression, genetic risk scores, functional mapping, linear and logistic regression, conditional linear mixed models. R, PLINK, REGENIE, STATA, Linux and HPC environments. UK Biobank, EXCEED, CLHNS and electronic health records.</p>
+    </section>
+
+    <section class="panel" id="publications">
+      <h2>Publications</h2>
+      <div class="lbl">Journal articles</div>
+      <div class="pub"><div class="ti">A candidate-variant association study of self-reported asthma in mothers of the Cebu Longitudinal Health and Nutrition Survey (CLHNS) cohort</div><div class="au"><b>Lirio A</b>, et al.</div><div class="so"><i>BMC Genomic Data</i>, 2026 · <a href="https://doi.org/10.1186/s12863-026-01419-5" target="_blank" rel="noopener">DOI</a></div></div>
+      <div class="pub"><div class="ti">Genome-wide insights into the genes and pathways shaping human foveal development and the genetic landscape of foveal hypoplasia</div><div class="au">Hunt C, Yoon H-J, <b>Lirio A</b>, et al.</div><div class="so"><i>Investigative Ophthalmology &amp; Visual Science</i> 66(12):22, 2025</div></div>
+      <div class="pub"><div class="ti">Genome-wide association study of preserved ratio impaired spirometry (PRISm)</div><div class="au">Higbee D, <b>Lirio A</b>, Hamilton F, et al.</div><div class="so"><i>European Respiratory Journal</i>, 2023 · <a href="https://doi.org/10.1183/13993003.00337-2023" target="_blank" rel="noopener">DOI</a></div></div>
+      <div class="pub"><div class="ti">Methylation changes in peripheral blood of Filipinos with type 2 diabetes suggest spurious transcription initiation at TXNIP</div><div class="au">Albao D, Cutiongco-de la Paz EM, Mercado ME, <b>Lirio A</b>, et al.</div><div class="so"><i>Human Molecular Genetics</i> 28(24):4208–4218, 2019</div></div>
+      <div class="lbl">Preprints and under review</div>
+      <div class="pub"><div class="ti">Genome-wide association and multi-omics functional screens reveal the genetic architecture of foveal development<span class="chip">Preprint</span></div><div class="au">Hunt C, Patil M, Syed H, … <b>Lirio A</b>, … Batini C, Thomas MG</div><div class="so"><i>medRxiv</i>, 2026 · <a href="https://doi.org/10.64898/2026.06.11.26355452" target="_blank" rel="noopener">DOI</a></div></div>
+      <div class="pub"><div class="ti">A genome-wide association study of change in longitudinal FEV<sub>1</sub> in chronic obstructive pulmonary disease<span class="chip">Under review</span></div><div class="au"><b>Lirio A</b>, et al.</div><div class="so"><i>International Journal of Chronic Obstructive Pulmonary Disease</i></div></div>
+    </section>
+
+    <section class="panel" id="experience">
+      <h2>Experience</h2>
+      <div class="lbl">Positions</div>
+      <div class="row"><div class="when">2024 – present</div><div><b>Postdoctoral Research Associate</b><div class="where">Ulverscroft Eye Unit, University of Leicester, UK</div></div></div>
+      <div class="row"><div class="when">2020 – 2021</div><div><b>Teaching Assistant</b>, Population and Social Sciences<div class="where">MB ChB, University of Leicester</div></div></div>
+      <div class="row"><div class="when">2017 – 2020</div><div><b>Research Associate</b><div class="where">Institute of Human Genetics, National Institutes of Health, Philippines</div></div></div>
+      <div class="row"><div class="when">2017 – 2020</div><div><b>General Physician</b><div class="where">Clinical practice, Philippines</div></div></div>
+      <div class="lbl">Education and training</div>
+      <div class="row"><div class="when">2024</div><div><b>PhD, Genetic Epidemiology</b><div class="where">University of Leicester, UK</div></div></div>
+      <div class="row"><div class="when">2019</div><div><b>Graduate Certificate, Advanced Training in Clinical Research</b><div class="where">University of California, San Francisco</div></div></div>
+      <div class="row"><div class="when">2016</div><div><b>MD–MBA</b><div class="where">Ateneo de Manila University School of Medicine and Public Health</div></div></div>
+      <div class="row"><div class="when">2010</div><div><b>BS Biology</b><div class="where">University of the Philippines Los Baños</div></div></div>
+      <div class="lbl">Licensure</div>
+      <p>Licensed physician, Professional Regulation Commission, Philippines</p>
+    </section>
+
+    <section class="panel" id="talks">
+      <h2>Talks and presentations</h2>
+      <div class="row"><div class="when">Jun 2026</div><div><b>Poster</b>, UK Eye Genetics Group Annual Conference, Leicester, UK<div class="where"><i>Genome-wide association of sub-foveal outer segment thickness</i> · <a href="lirio-ukegg-2026-poster.pdf" target="_blank">View poster (PDF)</a></div></div></div>
+      <div class="row"><div class="when">May 2026</div><div><b>Poster</b>, ARVO Annual Meeting, Denver, USA</div></div>
+      <div class="row"><div class="when">May 2025</div><div><b>Oral presentation</b>, American Thoracic Society International Conference, San Francisco, USA</div></div>
+      <div class="row"><div class="when">Nov 2023</div><div><b>Poster</b>, Respiratory Genomics Conference, Nottingham, UK</div></div>
+      <div class="row"><div class="when">Sep 2022</div><div><b>Poster</b>, International Genetic Epidemiology Society Meeting, Paris, France</div></div>
+      <div class="lbl">Honours and awards</div>
+      <ul>
+        <li>Wellcome Genome Campus course grant: Genetic Analysis of Population-based Studies</li>
+        <li>Philippine Genome Center Bioinformatics Training and Internship Program grant</li>
+        <li>Phi Sigma Biological Sciences Honor Society, University of the Philippines</li>
+      </ul>
+    </section>
+  </main>
+
+  <aside>
+    <div class="card">
+      <h4>Contact</h4>
+      <ul>
+        <li><a href="mailto:aelirio@up.edu.ph">aelirio@up.edu.ph</a></li>
+        <li><a href="mailto:al574@leicester.ac.uk">al574@leicester.ac.uk</a></li>
+        <li><a href="https://orcid.org/0009-0009-5490-6012" target="_blank" rel="noopener">ORCID</a></li>
+        <li><a href="https://github.com/ael16" target="_blank" rel="noopener">GitHub</a></li>
+      </ul>
     </div>
-  </div>
-</div>
- <!-- /main -->
-<script id="quarto-html-after-body" type="application/javascript">
-  window.document.addEventListener("DOMContentLoaded", function (event) {
-    const isCodeAnnotation = (el) => {
-      for (const clz of el.classList) {
-        if (clz.startsWith('code-annotation-')) {                     
-          return true;
-        }
-      }
-      return false;
-    }
-    const onCopySuccess = function(e) {
-      // button target
-      const button = e.trigger;
-      // don't keep focus
-      button.blur();
-      // flash "checked"
-      button.classList.add('code-copy-button-checked');
-      var currentTitle = button.getAttribute("title");
-      button.setAttribute("title", "Copied!");
-      let tooltip;
-      if (window.bootstrap) {
-        button.setAttribute("data-bs-toggle", "tooltip");
-        button.setAttribute("data-bs-placement", "left");
-        button.setAttribute("data-bs-title", "Copied!");
-        tooltip = new bootstrap.Tooltip(button, 
-          { trigger: "manual", 
-            customClass: "code-copy-button-tooltip",
-            offset: [0, -8]});
-        tooltip.show();    
-      }
-      setTimeout(function() {
-        if (tooltip) {
-          tooltip.hide();
-          button.removeAttribute("data-bs-title");
-          button.removeAttribute("data-bs-toggle");
-          button.removeAttribute("data-bs-placement");
-        }
-        button.setAttribute("title", currentTitle);
-        button.classList.remove('code-copy-button-checked');
-      }, 1000);
-      // clear code selection
-      e.clearSelection();
-    }
-    const getTextToCopy = function(trigger) {
-      const outerScaffold = trigger.parentElement.cloneNode(true);
-      const codeEl = outerScaffold.querySelector('code');
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
-      text: getTextToCopy
-    });
-    clipboard.on('success', onCopySuccess);
-    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
-        text: getTextToCopy,
-        container: window.document.getElementById('quarto-embedded-source-code-modal')
-      });
-      clipboardModal.on('success', onCopySuccess);
-    }
-      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
-      var isInternal = (href) => {
-          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
-      }
-      // Inspect non-navigation links and adorn them if external
-      window.quartoDecorateExternalLinks = function (root) {
-     var links = (root || window.document).querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
-      for (var i=0; i<links.length; i++) {
-        const link = links[i];
-        if (!isInternal(link.href)) {
-          // undo the damage that might have been done by quarto-nav.js in the case of
-          // links that we want to consider external
-          if (link.dataset.originalHref !== undefined) {
-            link.href = link.dataset.originalHref;
-          }
-          if (!link.classList.contains('no-external-icon')) {
-          }
-        }
-      }
-      };
-      window.quartoDecorateExternalLinks(window.document);
-    // Esc closes the popup (WCAG 1.4.13) and focus leaving both trigger and
-    // popup closes it (WCAG 2.4.11); tippy handles neither for interactive popups.
-    const hideOnEscAndFocusOut = {
-      name: 'hideOnEscAndFocusOut',
-      defaultValue: true,
-      fn(instance) {
-        const dismiss = () => {
-          // A show scheduled by the trigger delay would otherwise reopen it
-          instance.clearDelayTimeouts();
-          instance.hide();
-        };
-        const onKeyDown = (event) => {
-          if (event.key !== 'Escape') {
-            return;
-          }
-          // Keep Esc from also reaching page handlers (e.g. reveal.js overview),
-          // except an open reveal.js slide menu, which Esc should close too.
-          // The menu handles keys only when its keyboard option is on.
-          const menuHandlesEsc = window.Reveal?.getPlugin?.('menu')?.isOpen() &&
-            window.Reveal.getConfig().menu?.keyboard !== false;
-          if (!menuHandlesEsc) {
-            event.stopPropagation();
-          }
-          if (instance.popper.contains(window.document.activeElement)) {
-            // Disabled while refocusing so the focus trigger does not reopen it
-            instance.disable();
-            instance.reference.focus();
-            instance.enable();
-          }
-          dismiss();
-        };
-        const onFocusOut = (event) => {
-          const target = event.relatedTarget;
-          if (target && !instance.reference.contains(target) &&
-              !instance.popper.contains(target)) {
-            dismiss();
-          }
-        };
-        // On the trigger too: a click trigger (code-annotations: select) has no
-        // blur handling. Attached for the instance's lifetime so leaving the
-        // trigger also cancels a show still pending on the trigger delay.
-        instance.reference.addEventListener('focusout', onFocusOut);
-        return {
-          onShow() {
-            window.document.addEventListener('keydown', onKeyDown, true);
-            instance.popper.addEventListener('focusout', onFocusOut);
-          },
-          onHide() {
-            window.document.removeEventListener('keydown', onKeyDown, true);
-            instance.popper.removeEventListener('focusout', onFocusOut);
-          },
-          onDestroy() {
-            instance.reference.removeEventListener('focusout', onFocusOut);
-          },
-        };
-      },
-    };
-    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
-      const config = {
-        allowHTML: true,
-        maxWidth: 500,
-        delay: 100,
-        arrow: false,
-        appendTo: function(el) {
-            return el.parentElement;
-        },
-        interactive: true,
-        interactiveBorder: 10,
-        theme: 'quarto',
-        placement: 'bottom-start',
-        plugins: [hideOnEscAndFocusOut],
-      };
-      if (contentFn) {
-        config.content = contentFn;
-      }
-      if (onTriggerFn) {
-        config.onTrigger = onTriggerFn;
-      }
-      if (onUntriggerFn) {
-        config.onUntrigger = onUntriggerFn;
-      }
-      window.tippy(el, config); 
-    }
-    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
-    for (var i=0; i<noterefs.length; i++) {
-      const ref = noterefs[i];
-      tippyHover(ref, function() {
-        // use id or data attribute instead here
-        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
-        try { href = new URL(href).hash; } catch {}
-        const id = href.replace(/^#\/?/, "");
-        const note = window.document.getElementById(id);
-        if (note) {
-          return note.innerHTML;
-        } else {
-          return "";
-        }
-      });
-    }
-    const xrefs = window.document.querySelectorAll('a.quarto-xref');
-    const processXRef = (id, note) => {
-      // Strip column container classes
-      const stripColumnClz = (el) => {
-        el.classList.remove("page-full", "page-columns");
-        if (el.children) {
-          for (const child of el.children) {
-            stripColumnClz(child);
-          }
-        }
-      }
-      stripColumnClz(note)
-      if (id === null || id.startsWith('sec-')) {
-        // Special case sections, only their first couple elements
-        const container = document.createElement("div");
-        if (note.children && note.children.length > 2) {
-          container.appendChild(note.children[0].cloneNode(true));
-          for (let i = 1; i < note.children.length; i++) {
-            const child = note.children[i];
-            if (child.tagName === "P" && child.innerText === "") {
-              continue;
-            } else {
-              container.appendChild(child.cloneNode(true));
-              break;
-            }
-          }
-          if (window.Quarto?.typesetMath) {
-            window.Quarto.typesetMath(container);
-          }
-          return container.innerHTML
-        } else {
-          if (window.Quarto?.typesetMath) {
-            window.Quarto.typesetMath(note);
-          }
-          return note.innerHTML;
-        }
-      } else {
-        // Remove any anchor links if they are present
-        const anchorLink = note.querySelector('a.anchorjs-link');
-        if (anchorLink) {
-          anchorLink.remove();
-        }
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(note);
-        }
-        if (note.classList.contains("callout")) {
-          return note.outerHTML;
-        } else {
-          return note.innerHTML;
-        }
-      }
-    }
-    for (var i=0; i<xrefs.length; i++) {
-      const xref = xrefs[i];
-      tippyHover(xref, undefined, function(instance) {
-        instance.disable();
-        let url = xref.getAttribute('href');
-        let hash = undefined; 
-        if (url.startsWith('#')) {
-          hash = url;
-        } else {
-          try { hash = new URL(url).hash; } catch {}
-        }
-        if (hash) {
-          const id = hash.replace(/^#\/?/, "");
-          const note = window.document.getElementById(id);
-          if (note !== null) {
-            try {
-              const html = processXRef(id, note.cloneNode(true));
-              instance.setContent(html);
-            } finally {
-              instance.enable();
-              instance.show();
-            }
-          } else {
-            // See if we can fetch this
-            fetch(url.split('#')[0])
-            .then(res => res.text())
-            .then(html => {
-              const parser = new DOMParser();
-              const htmlDoc = parser.parseFromString(html, "text/html");
-              const note = htmlDoc.getElementById(id);
-              if (note !== null) {
-                const html = processXRef(id, note);
-                instance.setContent(html);
-              } 
-            }).finally(() => {
-              instance.enable();
-              instance.show();
-            });
-          }
-        } else {
-          // See if we can fetch a full url (with no hash to target)
-          // This is a special case and we should probably do some content thinning / targeting
-          fetch(url)
-          .then(res => res.text())
-          .then(html => {
-            const parser = new DOMParser();
-            const htmlDoc = parser.parseFromString(html, "text/html");
-            const note = htmlDoc.querySelector('main.content');
-            if (note !== null) {
-              // This should only happen for chapter cross references
-              // (since there is no id in the URL)
-              // remove the first header
-              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
-                note.children[0].remove();
-              }
-              const html = processXRef(null, note);
-              instance.setContent(html);
-            } 
-          }).finally(() => {
-            instance.enable();
-            instance.show();
-          });
-        }
-      }, function(instance) {
-      });
-    }
-        let selectedAnnoteEl;
-        const selectorForAnnotation = ( cell, annotation) => {
-          let cellAttr = 'data-code-cell="' + cell + '"';
-          let lineAttr = 'data-code-annotation="' +  annotation + '"';
-          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
-          return selector;
-        }
-        const selectCodeLines = (annoteEl) => {
-          const doc = window.document;
-          const targetCell = annoteEl.getAttribute("data-target-cell");
-          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
-          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
-          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
-          const lineIds = lines.map((line) => {
-            return targetCell + "-" + line;
-          })
-          // Each band is positioned against its own containing block, which is
-          // not the offsetParent of the lines, so place it from client rects.
-          const placeBand = (band, firstEl, lastEl, codeBlock) => {
-            const container = band.offsetParent;
-            if (container === null) {
-              return;
-            }
-            const containerRect = container.getBoundingClientRect();
-            // Reveal.js scales slides with a transform, so convert client
-            // pixels back to the CSS pixels of the container.
-            const scale = containerRect.height / container.offsetHeight || 1;
-            const firstRect = firstEl.getBoundingClientRect();
-            const lastRect = lastEl.getBoundingClientRect();
-            const top = (firstRect.top - containerRect.top) / scale - container.clientTop + container.scrollTop;
-            const height = (lastRect.bottom - firstRect.top) / scale;
-            band.style.top = top - 2 + "px";
-            band.style.height = height + 4 + "px";
-            if (codeBlock) {
-              // Without the copy button wrapper, the containing block is wider
-              // than the code block, so span the code block explicitly.
-              const blockRect = codeBlock.getBoundingClientRect();
-              band.style.left = (blockRect.left - containerRect.left) / scale - container.clientLeft + container.scrollLeft + "px";
-              band.style.width = blockRect.width / scale + "px";
-            }
-          };
-          if (lineIds.length > 0) {
-            const el = window.document.getElementById(lineIds[0]);
-            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-            const parent = el.parentElement.parentElement;
-            // cook up a div (if necessary) and position it
-            let div = window.document.getElementById("code-annotation-line-highlight");
-            if (div === null) {
-              div = window.document.createElement("div");
-              div.setAttribute("id", "code-annotation-line-highlight");
-              div.style.position = 'absolute';
-              parent.appendChild(div);
-            }
-            placeBand(div, el, lastEl, parent.closest("div.sourceCode") || parent);
-            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-            if (gutterDiv === null) {
-              gutterDiv = window.document.createElement("div");
-              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-              gutterDiv.style.position = 'absolute';
-              const codeCell = window.document.getElementById(targetCell);
-              const gutter = codeCell.querySelector('.code-annotation-gutter');
-              gutter.appendChild(gutterDiv);
-            }
-            placeBand(gutterDiv, el, lastEl);
-            selectedAnnoteEl = annoteEl;
-          }
-        };
-        const unselectCodeLines = () => {
-          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
-          elementsIds.forEach((elId) => {
-            const div = window.document.getElementById(elId);
-            if (div) {
-              div.remove();
-            }
-          });
-          selectedAnnoteEl = undefined;
-        };
-          // Handle positioning of the toggle
-      window.addEventListener(
-        "resize",
-        throttle(() => {
-          elRect = undefined;
-          if (selectedAnnoteEl) {
-            selectCodeLines(selectedAnnoteEl);
-          }
-        }, 10)
-      );
-      function throttle(fn, ms) {
-      let throttle = false;
-      let timer;
-        return (...args) => {
-          if(!throttle) { // first call gets through
-              fn.apply(this, args);
-              throttle = true;
-          } else { // all the others get throttled
-              if(timer) clearTimeout(timer); // cancel #2
-              timer = setTimeout(() => {
-                fn.apply(this, args);
-                timer = throttle = false;
-              }, ms);
-          }
-        };
-      }
-        // Attach click handler to the DT
-        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
-        for (const annoteDlNode of annoteDls) {
-          annoteDlNode.addEventListener('click', (event) => {
-            const clickedEl = event.target;
-            if (clickedEl !== selectedAnnoteEl) {
-              unselectCodeLines();
-              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
-              if (activeEl) {
-                activeEl.classList.remove('code-annotation-active');
-              }
-              selectCodeLines(clickedEl);
-              clickedEl.classList.add('code-annotation-active');
-            } else {
-              // Unselect the line
-              unselectCodeLines();
-              clickedEl.classList.remove('code-annotation-active');
-            }
-          });
-        }
-    const findCites = (el) => {
-      const parentEl = el.parentElement;
-      if (parentEl) {
-        const cites = parentEl.dataset.cites;
-        if (cites) {
-          return {
-            el,
-            cites: cites.split(' ')
-          };
-        } else {
-          return findCites(el.parentElement)
-        }
-      } else {
-        return undefined;
-      }
-    };
-    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
-    for (var i=0; i<bibliorefs.length; i++) {
-      const ref = bibliorefs[i];
-      const citeInfo = findCites(ref);
-      if (citeInfo) {
-        tippyHover(citeInfo.el, function() {
-          var popup = window.document.createElement('div');
-          citeInfo.cites.forEach(function(cite) {
-            var citeDiv = window.document.createElement('div');
-            citeDiv.classList.add('hanging-indent');
-            citeDiv.classList.add('csl-entry');
-            var biblioDiv = window.document.getElementById('ref-' + cite);
-            if (biblioDiv) {
-              citeDiv.innerHTML = biblioDiv.innerHTML;
-            }
-            popup.appendChild(citeDiv);
-          });
-          return popup.innerHTML;
-        });
-      }
-    }
-  });
-  </script>
-  <script type="application/javascript">
-  window.quartoScrollableRegionsLabels = {"code":"Scrollable code","output":"Scrollable output"};
-  </script>
-</div> <!-- /content -->
-<footer class="footer">
-  <div class="nav-footer">
-    <div class="nav-footer-left">
-      &nbsp;
-    </div>   
-    <div class="nav-footer-center">
-<p>© 2026 Alvin E. Lirio · Built with <a href="https://quarto.org">Quarto</a></p>
-</div>
-    <div class="nav-footer-right">
-      &nbsp;
+    <div class="card">
+      <h4>Current role</h4>
+      <ul><li>Postdoctoral Research Associate, Ulverscroft Eye Unit, University of Leicester</li></ul>
     </div>
-  </div>
-</footer>
+    <div class="card">
+      <h4>Education</h4>
+      <ul>
+        <li>PhD, University of Leicester (2024)</li>
+        <li>MD–MBA, Ateneo de Manila University (2016)</li>
+      </ul>
+    </div>
+  </aside>
+</div>
 
+<footer>© 2026 Alvin E. Lirio</footer>
 
-
-
-</body></html>
+<script>
+(function(){
+  var tabs=[].slice.call(document.querySelectorAll('.tabs a'));
+  var panels=[].slice.call(document.querySelectorAll('.panel'));
+  function show(id){
+    if(!document.getElementById(id)) id='bio';
+    tabs.forEach(function(t){t.classList.toggle('on',t.getAttribute('href')==='#'+id)});
+    panels.forEach(function(p){p.classList.toggle('on',p.id===id)});
+  }
+  tabs.forEach(function(t){t.addEventListener('click',function(e){
+    e.preventDefault(); var id=t.getAttribute('href').slice(1);
+    history.replaceState(null,'','#'+id); show(id);
+    var nav=document.querySelector('.tabs'); if(window.scrollY>nav.offsetTop) window.scrollTo(0,nav.offsetTop);
+  })});
+  show((location.hash||'#bio').slice(1));
+})();
+</script>
+</body>
+</html>
