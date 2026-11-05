@@ -1,0 +1,121 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Alvin E. Lirio, MD, PhD",
+    "section": "",
+    "text": "I’m a physician-scientist with a PhD in genetic epidemiology. I use large-scale human genomics and statistical genetics to understand how genes, environment and lifestyle shape complex disease.\n\nMy work centres on genome-wide association studies (GWAS) and downstream analyses in large biobanks and population cohorts, bringing together genomic, clinical and lifestyle data to find disease mechanisms and potential therapeutic targets.\nI trained as a doctor in the Philippines and practised as a general physician before moving into research. That clinical grounding, and my work with Filipino cohorts, drives a long-standing commitment to improving genomic representation of underrepresented populations.\nI’m currently a Postdoctoral Research Associate at the Ulverscroft Eye Unit, University of Leicester, UK.\n\nInterests\n\nRespiratory and cardiometabolic population genetics\nLongitudinal disease trajectories and gene-by-environment interactions (smoking, diet, lifestyle, medications)\nRare variant and non-coding variant analyses\nMulti-ancestry genomics and underrepresented populations\n\n\n\nEducation\n\nPhD, Genetic Epidemiology, University of Leicester, UK (2024)\nGraduate Certificate, Advanced Training in Clinical Research, UCSF, USA (2019)\nMD-MBA, Ateneo de Manila University School of Medicine and Public Health, Philippines (2016)\nBS Biology, University of the Philippines Los Baños (2010)"
+  },
+  {
+    "objectID": "talks.html",
+    "href": "talks.html",
+    "title": "Talks and presentations",
+    "section": "",
+    "text": "Poster, Association for Research in Vision and Ophthalmology (ARVO), Denver, USA · May 2026\nOral presentation, American Thoracic Society (ATS) International Conference, San Francisco, USA · May 2025\nPoster, Respiratory Genomics Conference, Nottingham, UK · November 2023\nPoster, International Genetic Epidemiology Society (IGES) Meeting, Paris, France · September 2022"
+  },
+  {
+    "objectID": "talks.html#teaching",
+    "href": "talks.html#teaching",
+    "title": "Talks and presentations",
+    "section": "Teaching",
+    "text": "Teaching\n\nTeaching Assistant, Population and Social Sciences, MB ChB Phase 1, University of Leicester (2020–2021). Small-group teaching on public health and evidence-based medicine."
+  },
+  {
+    "objectID": "talks.html#awards-and-training-grants",
+    "href": "talks.html#awards-and-training-grants",
+    "title": "Talks and presentations",
+    "section": "Awards and training grants",
+    "text": "Awards and training grants\n\nWellcome Genome Campus course grant: Genetic Analysis of Population-based Studies\nPhilippine Genome Center Bioinformatics Training and Internship Program grant\nPhi Sigma Biological Sciences Honor Society, Alpha Chi Chapter, University of the Philippines"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Curriculum vitae",
+    "section": "",
+    "text": "Postdoctoral Research Associate · Ulverscroft Eye Unit, University of Leicester, UK · 2024–present\n\nGenome-scale analyses (GWAS, fine-mapping) in UK Biobank to identify genes and pathways in ocular disease, within a multidisciplinary team spanning ophthalmology, statistics, bioinformatics and epidemiology.\n\nTeaching Assistant · Population and Social Sciences, University of Leicester · 2020–2021\n\nSmall-group teaching for second-year medical students on public health and evidence-based medicine.\n\nResearch Associate · Institute of Human Genetics, National Institutes of Health, Philippines · 2017–2020\n\nMetagenomic Contributions to Type 2 Diabetes Among Filipino Populations (with UCSF). Participant screening and enrolment, phenotype and environmental data capture, metadata management.\n\nGeneral Physician · Clinical practice, Philippines · 2017–2020\n\nAssessment and management of a broad range of conditions, with a focus on chronic and non-communicable diseases.\n\nResearch Assistant · University of the Philippines Los Baños · 2010–2011\n\nMorpho-physiologic analyses and growth optimisation in a laboratory model organism project."
+  },
+  {
+    "objectID": "cv.html#experience",
+    "href": "cv.html#experience",
+    "title": "Curriculum vitae",
+    "section": "",
+    "text": "Postdoctoral Research Associate · Ulverscroft Eye Unit, University of Leicester, UK · 2024–present\n\nGenome-scale analyses (GWAS, fine-mapping) in UK Biobank to identify genes and pathways in ocular disease, within a multidisciplinary team spanning ophthalmology, statistics, bioinformatics and epidemiology.\n\nTeaching Assistant · Population and Social Sciences, University of Leicester · 2020–2021\n\nSmall-group teaching for second-year medical students on public health and evidence-based medicine.\n\nResearch Associate · Institute of Human Genetics, National Institutes of Health, Philippines · 2017–2020\n\nMetagenomic Contributions to Type 2 Diabetes Among Filipino Populations (with UCSF). Participant screening and enrolment, phenotype and environmental data capture, metadata management.\n\nGeneral Physician · Clinical practice, Philippines · 2017–2020\n\nAssessment and management of a broad range of conditions, with a focus on chronic and non-communicable diseases.\n\nResearch Assistant · University of the Philippines Los Baños · 2010–2011\n\nMorpho-physiologic analyses and growth optimisation in a laboratory model organism project."
+  },
+  {
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
+    "title": "Curriculum vitae",
+    "section": "Education",
+    "text": "Education\n\nPhD, Genetic Epidemiology · University of Leicester, UK · 2020–2024\n\nGenetic and non-genetic determinants of respiratory traits across the life course, using UK Biobank, EXCEED and CLHNS.\n\nAdvanced Training in Clinical Research, Graduate Certificate · UCSF, USA · 2018–2019\n\nClinical trial design, epidemiology, biostatistics and responsible conduct of research.\n\n\nDoctor of Medicine – Master of Business Administration · Ateneo de Manila University School of Medicine and Public Health · 2011–2016\nBS Biology · University of the Philippines Los Baños · 2006–2010"
+  },
+  {
+    "objectID": "cv.html#licensure",
+    "href": "cv.html#licensure",
+    "title": "Curriculum vitae",
+    "section": "Licensure",
+    "text": "Licensure\nLicensed physician, Professional Regulation Commission, Philippines\nSee also: Publications · Talks · Research"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Using UK Biobank linked electronic health records, I ran a genome-wide association study of longitudinal FEV1 decline in people with chronic obstructive pulmonary disease, modelling lung function trajectories with conditional linear mixed models. (Manuscript under review.)"
+  },
+  {
+    "objectID": "research.html#longitudinal-lung-function-and-copd",
+    "href": "research.html#longitudinal-lung-function-and-copd",
+    "title": "Research",
+    "section": "",
+    "text": "Using UK Biobank linked electronic health records, I ran a genome-wide association study of longitudinal FEV1 decline in people with chronic obstructive pulmonary disease, modelling lung function trajectories with conditional linear mixed models. (Manuscript under review.)"
+  },
+  {
+    "objectID": "research.html#preserved-ratio-impaired-spirometry-prism",
+    "href": "research.html#preserved-ratio-impaired-spirometry-prism",
+    "title": "Research",
+    "section": "Preserved ratio impaired spirometry (PRISm)",
+    "text": "Preserved ratio impaired spirometry (PRISm)\nAs part of my PhD, I contributed to a GWAS of PRISm, drawing on the EXCEED cohort, published in the European Respiratory Journal (2023)."
+  },
+  {
+    "objectID": "research.html#asthma-genetics-in-a-filipino-cohort",
+    "href": "research.html#asthma-genetics-in-a-filipino-cohort",
+    "title": "Research",
+    "section": "Asthma genetics in a Filipino cohort",
+    "text": "Asthma genetics in a Filipino cohort\nI led a candidate-variant association study of self-reported asthma in mothers of the Cebu Longitudinal Health and Nutrition Survey (CLHNS), one of the few long-running population cohorts in Southeast Asia (BMC Genomic Data, 2026)."
+  },
+  {
+    "objectID": "research.html#ocular-genetics",
+    "href": "research.html#ocular-genetics",
+    "title": "Research",
+    "section": "Ocular genetics",
+    "text": "Ocular genetics\nAt the Ulverscroft Eye Unit I run genome-scale analyses (GWAS, fine-mapping) in UK Biobank to identify genes and pathways behind ocular traits, working with ophthalmologists, statisticians and bioinformaticians. This includes work on the genetics of human foveal development (IOVS, 2025)."
+  },
+  {
+    "objectID": "research.html#type-2-diabetes-in-filipinos",
+    "href": "research.html#type-2-diabetes-in-filipinos",
+    "title": "Research",
+    "section": "Type 2 diabetes in Filipinos",
+    "text": "Type 2 diabetes in Filipinos\nAt the Institute of Human Genetics, National Institutes of Health Philippines, I worked on a UCSF collaboration on the metagenomic and genetic determinants of type 2 diabetes in Filipino populations, coordinating participant recruitment and phenotype collection."
+  },
+  {
+    "objectID": "research.html#methods-and-tools",
+    "href": "research.html#methods-and-tools",
+    "title": "Research",
+    "section": "Methods and tools",
+    "text": "Methods and tools\n\n\n\n\n\n\n\nArea\nExperience\n\n\n\n\nStatistical genetics\nGWAS and post-GWAS, fine-mapping, LD-score regression, genetic risk scores, gene annotation and functional mapping\n\n\nEpidemiology\nLinear and logistic regression, conditional linear mixed models, longitudinal and population-based analyses\n\n\nData resources\nUK Biobank, EXCEED, CLHNS, electronic health records\n\n\nComputing\nR, PLINK, STATA, Linux, HPC environments\n\n\nStudy operations\nStudy design, data management, governance and ethics, participant recruitment"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Lirio A, et al. (2026). A candidate-variant association study of self-reported asthma in mothers of the Cebu Longitudinal Health and Nutrition Survey (CLHNS) cohort. BMC Genomic Data. doi:10.1186/s12863-026-01419-5"
+  },
+  {
+    "objectID": "publications.html#under-review",
+    "href": "publications.html#under-review",
+    "title": "Publications",
+    "section": "Under review",
+    "text": "Under review\n\nLirio A, et al. A genome-wide association study of change in longitudinal FEV1 in chronic obstructive pulmonary disease. International Journal of Chronic Obstructive Pulmonary Disease under review"
+  }
+]
