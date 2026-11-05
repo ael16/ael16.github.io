@@ -15,10 +15,12 @@ body{margin:0; font-family:"Source Sans 3",system-ui,-apple-system,"Segoe UI",sa
 a{color:#006cb8; text-underline-offset:2px}
 a:hover{color:var(--red)}
 .w{max-width:1140px; margin:0 auto; padding:0 28px}
+
 .brandbar{background:var(--red); color:#fff}
 .brandbar .w{height:46px; display:flex; align-items:center; justify-content:space-between}
 .brandbar b{font-family:"Source Serif 4",Georgia,serif; font-weight:600; font-size:1.05rem; letter-spacing:.01em}
 .brandbar span{font-size:.9rem; opacity:.9}
+
 .head{background:var(--band); border-bottom:1px solid var(--line); padding:36px 0 0}
 .head .w{display:flex; gap:32px; align-items:center}
 .photo{flex:0 0 170px; width:170px; height:200px; background:#e3dfd8; border:4px solid #fff; display:flex; align-items:center; justify-content:center; font-family:"Source Serif 4",serif; font-size:3rem; color:var(--red); margin-bottom:26px; overflow:hidden}
@@ -28,11 +30,13 @@ a:hover{color:var(--red)}
 .who .t1{font-size:1.15rem; margin:0}
 .who .t2{color:var(--muted); margin:0 0 12px}
 .who .blurb{font-size:1.05rem; max-width:62ch; margin:0}
+
 .tabs{border-bottom:1px solid var(--line); background:#fff; position:sticky; top:0; z-index:2}
 .tabs .w{display:flex; gap:4px; padding-left:12px; overflow-x:auto}
 .tabs a{display:block; padding:14px 16px 12px; color:var(--ink); text-decoration:none; font-weight:600; font-size:1rem; border-bottom:4px solid transparent; white-space:nowrap}
 .tabs a:hover{color:var(--red)}
 .tabs a.on{border-bottom-color:var(--red); color:var(--red)}
+
 .body{display:grid; grid-template-columns:1fr 300px; gap:56px; padding-top:44px; padding-bottom:60px}
 .panel{display:block}
 .js .panel{display:none}
@@ -42,6 +46,7 @@ a:hover{color:var(--red)}
 .panel p{margin:0 0 14px}
 .panel ul{padding-left:20px}
 .lbl{font-size:.82rem; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--red); margin:30px 0 10px}
+
 .item{padding:14px 0; border-bottom:1px solid var(--line)}
 .item:last-child{border-bottom:none}
 .item h3{margin:0 0 4px}
@@ -54,11 +59,13 @@ a:hover{color:var(--red)}
 .row{display:grid; grid-template-columns:130px 1fr; gap:18px; padding:12px 0; border-bottom:1px solid var(--line)}
 .row .when{color:var(--muted)}
 .row .where{color:var(--muted); font-size:.96rem}
+
 aside .card{border-top:4px solid var(--red); background:var(--fog); padding:18px 20px; margin-bottom:22px}
 aside h4{margin:0 0 10px; font-size:.85rem; letter-spacing:.08em; text-transform:uppercase}
 aside ul{list-style:none; padding:0; margin:0; font-size:.98rem}
 aside li{padding:4px 0}
 footer{border-top:1px solid var(--line); color:var(--muted); font-size:.9rem; padding:22px 0; text-align:center}
+
 @media (max-width:880px){
   .head .w{flex-direction:column; align-items:flex-start; gap:16px}
   .photo{width:120px; height:140px; flex-basis:auto; margin-bottom:0; font-size:2.2rem}
@@ -115,10 +122,10 @@ footer{border-top:1px solid var(--line); color:var(--muted); font-size:.9rem; pa
 
     <section class="panel" id="research">
       <h2>Research and scholarship</h2>
-      <div class="item"><h3>Longitudinal lung function decline in COPD</h3><p>A GWAS of FEV<sub>1</sub> decline in people with COPD in UK Biobank, using linked electronic health records and conditional linear mixed models to capture lung function trajectories.</p><div class="meta">Manuscript under review</div></div>
+      <div class="item"><h3>Longitudinal lung function decline in COPD</h3><p>A GWAS of FEV<sub>1</sub> decline in people with COPD in UK Biobank, using linked electronic health records and conditional linear mixed models to capture lung function trajectories.</p><div class="meta">ATS 2025 oral presentation · Manuscript under review</div></div>
       <div class="item"><h3>Preserved ratio impaired spirometry (PRISm)</h3><p>A genome-wide association study of PRISm, drawing on the EXCEED cohort, as part of his PhD.</p><div class="meta">European Respiratory Journal, 2023</div></div>
       <div class="item"><h3>Asthma genetics in a Filipino cohort</h3><p>A candidate-variant association study of self-reported asthma in mothers of the Cebu Longitudinal Health and Nutrition Survey, one of Southeast Asia's longest-running population cohorts.</p><div class="meta">BMC Genomic Data, 2026</div></div>
-      <div class="item"><h3>Genetics of the fovea and photoreceptors</h3><p>Genome-scale analyses of retinal traits in UK Biobank, including foveal development and a GWAS of sub-foveal outer segment thickness in about 54,000 participants using OCT-derived phenotypes.</p><div class="meta">IOVS 2025 · medRxiv 2026 · UK-EGG 2026</div></div>
+      <div class="item"><h3>Genetics of the fovea and photoreceptors</h3><p>Genome-scale analyses of retinal traits in UK Biobank, including foveal development and a GWAS of sub-foveal outer segment thickness in about 54,000 participants using OCT-derived phenotypes.</p><div class="meta">IOVS 2025 · medRxiv 2025, 2026 · UK-EGG 2026</div></div>
       <div class="item"><h3>Type 2 diabetes in Filipinos</h3><p>A UCSF collaboration at the Institute of Human Genetics, NIH Philippines, on genetic, epigenetic and metagenomic determinants of type 2 diabetes.</p><div class="meta">Human Molecular Genetics, 2019</div></div>
       <div class="lbl">Methods and tools</div>
       <p>GWAS and post-GWAS analysis, fine-mapping, LD-score regression, genetic risk scores, functional mapping, linear and logistic regression, conditional linear mixed models. R, PLINK, REGENIE, STATA, Linux and HPC environments. UK Biobank, EXCEED, CLHNS and electronic health records.</p>
@@ -128,12 +135,14 @@ footer{border-top:1px solid var(--line); color:var(--muted); font-size:.9rem; pa
       <h2>Publications</h2>
       <div class="lbl">Journal articles</div>
       <div class="pub"><div class="ti">A candidate-variant association study of self-reported asthma in mothers of the Cebu Longitudinal Health and Nutrition Survey (CLHNS) cohort</div><div class="au"><b>Lirio A</b>, et al.</div><div class="so"><i>BMC Genomic Data</i>, 2026 · <a href="https://doi.org/10.1186/s12863-026-01419-5" target="_blank" rel="noopener">DOI</a></div></div>
-      <div class="pub"><div class="ti">Genome-wide insights into the genes and pathways shaping human foveal development and the genetic landscape of foveal hypoplasia</div><div class="au">Hunt C, Yoon H-J, <b>Lirio A</b>, et al.</div><div class="so"><i>Investigative Ophthalmology &amp; Visual Science</i> 66(12):22, 2025</div></div>
+      <div class="pub"><div class="ti">Genome-wide insights into the genes and pathways shaping human foveal development and the genetic landscape of foveal hypoplasia</div><div class="au">Hunt C, Yoon H-J, <b>Lirio A</b>, et al.</div><div class="so"><i>Investigative Ophthalmology &amp; Visual Science</i> 66(12):22, 2025 · <a href="https://doi.org/10.1101/2025.06.18.25329836" target="_blank" rel="noopener">medRxiv preprint</a></div></div>
       <div class="pub"><div class="ti">Genome-wide association study of preserved ratio impaired spirometry (PRISm)</div><div class="au">Higbee D, <b>Lirio A</b>, Hamilton F, et al.</div><div class="so"><i>European Respiratory Journal</i>, 2023 · <a href="https://doi.org/10.1183/13993003.00337-2023" target="_blank" rel="noopener">DOI</a></div></div>
-      <div class="pub"><div class="ti">Methylation changes in peripheral blood of Filipinos with type 2 diabetes suggest spurious transcription initiation at TXNIP</div><div class="au">Albao D, Cutiongco-de la Paz EM, Mercado ME, <b>Lirio A</b>, et al.</div><div class="so"><i>Human Molecular Genetics</i> 28(24):4208–4218, 2019</div></div>
+      <div class="pub"><div class="ti">Methylation changes in peripheral blood of Filipinos with type 2 diabetes suggest spurious transcription initiation at TXNIP</div><div class="au">Albao D, Cutiongco-de la Paz EM, Mercado ME, <b>Lirio A</b>, et al.</div><div class="so"><i>Human Molecular Genetics</i> 28(24):4208–4218, 2019 · <a href="https://doi.org/10.1093/hmg/ddz262" target="_blank" rel="noopener">DOI</a></div></div>
       <div class="lbl">Preprints and under review</div>
       <div class="pub"><div class="ti">Genome-wide association and multi-omics functional screens reveal the genetic architecture of foveal development<span class="chip">Preprint</span></div><div class="au">Hunt C, Patil M, Syed H, … <b>Lirio A</b>, … Batini C, Thomas MG</div><div class="so"><i>medRxiv</i>, 2026 · <a href="https://doi.org/10.64898/2026.06.11.26355452" target="_blank" rel="noopener">DOI</a></div></div>
       <div class="pub"><div class="ti">A genome-wide association study of change in longitudinal FEV<sub>1</sub> in chronic obstructive pulmonary disease<span class="chip">Under review</span></div><div class="au"><b>Lirio A</b>, et al.</div><div class="so"><i>International Journal of Chronic Obstructive Pulmonary Disease</i></div></div>
+      <div class="lbl">Conference abstracts</div>
+      <div class="pub"><div class="ti">Genome-wide association study of longitudinal FEV<sub>1</sub> decline in COPD<span class="chip">Oral presentation</span></div><div class="au">American Thoracic Society International Conference, San Francisco, 2025</div><div class="so"><i>American Journal of Respiratory and Critical Care Medicine</i> 211:A2858, 2025 · <a href="https://doi.org/10.1164/ajrccm.2025.211.Abstracts.A2858" target="_blank" rel="noopener">DOI</a></div></div>
     </section>
 
     <section class="panel" id="experience">
@@ -156,9 +165,9 @@ footer{border-top:1px solid var(--line); color:var(--muted); font-size:.9rem; pa
       <h2>Talks and presentations</h2>
       <div class="row"><div class="when">Jun 2026</div><div><b>Poster</b>, UK Eye Genetics Group Annual Conference, Leicester, UK<div class="where"><i>Genome-wide association of sub-foveal outer segment thickness</i> · <a href="lirio-ukegg-2026-poster.pdf" target="_blank">View poster (PDF)</a></div></div></div>
       <div class="row"><div class="when">May 2026</div><div><b>Poster</b>, ARVO Annual Meeting, Denver, USA</div></div>
-      <div class="row"><div class="when">May 2025</div><div><b>Oral presentation</b>, American Thoracic Society International Conference, San Francisco, USA</div></div>
-      <div class="row"><div class="when">Nov 2023</div><div><b>Poster</b>, Respiratory Genomics Conference, Nottingham, UK</div></div>
-      <div class="row"><div class="when">Sep 2022</div><div><b>Poster</b>, International Genetic Epidemiology Society Meeting, Paris, France</div></div>
+      <div class="row"><div class="when">May 2025</div><div><b>Oral presentation</b>, American Thoracic Society International Conference, San Francisco, USA<div class="where"><i>Genome-wide association study of longitudinal FEV<sub>1</sub> decline in COPD</i> · <a href="https://doi.org/10.1164/ajrccm.2025.211.Abstracts.A2858" target="_blank" rel="noopener">Abstract</a></div></div></div>
+      <div class="row"><div class="when">Nov 2023</div><div><b>Poster</b>, Respiratory Genomics Conference, Nottingham, UK<div class="where"><i>A candidate-variant association study of self-reported asthma in mothers of the Cebu Longitudinal Health and Nutrition Survey (CLHNS) cohort</i> · <a href="lirio-respgenomics-2023-poster.pdf" target="_blank">View poster (PDF)</a></div></div></div>
+      <div class="row"><div class="when">Sep 2022</div><div><b>Poster</b>, International Genetic Epidemiology Society Meeting, Paris, France<div class="where"><i>Genetic analysis of Preserved Ratio Impaired Spirometry using a population-based cohort</i> · <a href="lirio-iges-2022-poster.pdf" target="_blank">View poster (PDF)</a></div></div></div>
       <div class="lbl">Honours and awards</div>
       <ul>
         <li>Wellcome Genome Campus course grant: Genetic Analysis of Population-based Studies</li>
