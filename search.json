@@ -11,7 +11,7 @@
     "href": "talks.html",
     "title": "Talks and presentations",
     "section": "",
-    "text": "Poster, Association for Research in Vision and Ophthalmology (ARVO), Denver, USA · May 2026\nOral presentation, American Thoracic Society (ATS) International Conference, San Francisco, USA · May 2025\nPoster, Respiratory Genomics Conference, Nottingham, UK · November 2023\nPoster, International Genetic Epidemiology Society (IGES) Meeting, Paris, France · September 2022"
+    "text": "Poster, UK Eye Genetics Group (UK-EGG) Annual Conference, Leicester, UK · June 2026Genome-wide association of sub-foveal outer segment thickness · View poster (PDF)\nPoster, Association for Research in Vision and Ophthalmology (ARVO), Denver, USA · May 2026\nOral presentation, American Thoracic Society (ATS) International Conference, San Francisco, USA · May 2025\nPoster, Respiratory Genomics Conference, Nottingham, UK · November 2023\nPoster, International Genetic Epidemiology Society (IGES) Meeting, Paris, France · September 2022"
   },
   {
     "objectID": "talks.html#teaching",
@@ -88,7 +88,7 @@
     "href": "research.html#ocular-genetics",
     "title": "Research",
     "section": "Ocular genetics",
-    "text": "Ocular genetics\nAt the Ulverscroft Eye Unit I run genome-scale analyses (GWAS, fine-mapping) in UK Biobank to identify genes and pathways behind ocular traits, working with ophthalmologists, statisticians and bioinformaticians. This includes work on the genetics of human foveal development (IOVS, 2025)."
+    "text": "Ocular genetics\nAt the Ulverscroft Eye Unit I run genome-scale analyses (GWAS, fine-mapping) in UK Biobank to identify genes and pathways behind ocular traits, working with ophthalmologists, statisticians and bioinformaticians. This includes work on the genetics of human foveal development (IOVS, 2025; medRxiv preprint, 2026) and a GWAS of sub-foveal photoreceptor outer segment thickness in about 54,000 UK Biobank participants, using OCT-derived phenotypes (UK-EGG 2026 poster)."
   },
   {
     "objectID": "research.html#type-2-diabetes-in-filipinos",
@@ -110,6 +110,13 @@
     "title": "Publications",
     "section": "",
     "text": "Lirio A, et al. (2026). A candidate-variant association study of self-reported asthma in mothers of the Cebu Longitudinal Health and Nutrition Survey (CLHNS) cohort. BMC Genomic Data. doi:10.1186/s12863-026-01419-5"
+  },
+  {
+    "objectID": "publications.html#preprints",
+    "href": "publications.html#preprints",
+    "title": "Publications",
+    "section": "Preprints",
+    "text": "Preprints\n\nHunt C, Patil M, Syed H, Yoon H-J, … Lirio A, … Batini C, Thomas MG (2026). Genome-wide association and multi-omics functional screens reveal the genetic architecture of foveal development. medRxiv. doi:10.64898/2026.06.11.26355452 preprint"
   },
   {
     "objectID": "publications.html#under-review",
