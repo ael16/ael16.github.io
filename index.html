@@ -22,8 +22,8 @@ a:hover{color:var(--red)}
 .brandbar span{font-size:.9rem; opacity:.9}
 
 .head{background:var(--band); border-bottom:1px solid var(--line); padding:36px 0 0}
-.head .w{display:flex; gap:32px; align-items:center}
-.photo{flex:0 0 170px; width:170px; height:200px; background:#e3dfd8; border:4px solid #fff; display:flex; align-items:center; justify-content:center; font-family:"Source Serif 4",serif; font-size:3rem; color:var(--red); margin-bottom:26px; overflow:hidden}
+.head .w{display:flex; gap:32px; align-items:flex-end}
+.photo{flex:0 0 170px; width:170px; height:200px; background:#e3dfd8; border:4px solid #fff; display:flex; align-items:center; justify-content:center; font-family:"Source Serif 4",serif; font-size:3rem; color:var(--red); margin-bottom:-28px; overflow:hidden; position:relative; z-index:1}
 .photo img{width:100%; height:100%; object-fit:cover}
 .who{padding-bottom:26px}
 .who h1{font-family:"Source Serif 4",Georgia,serif; font-weight:600; font-size:2.4rem; line-height:1.15; margin:0 0 6px}
@@ -32,7 +32,7 @@ a:hover{color:var(--red)}
 .who .blurb{font-size:1.05rem; max-width:62ch; margin:0}
 
 .tabs{border-bottom:1px solid var(--line); background:#fff; position:sticky; top:0; z-index:2}
-.tabs .w{display:flex; gap:4px; padding-left:12px; overflow-x:auto}
+.tabs .w{display:flex; gap:4px; padding-left:230px; overflow-x:auto}
 .tabs a{display:block; padding:14px 16px 12px; color:var(--ink); text-decoration:none; font-weight:600; font-size:1rem; border-bottom:4px solid transparent; white-space:nowrap}
 .tabs a:hover{color:var(--red)}
 .tabs a.on{border-bottom-color:var(--red); color:var(--red)}
@@ -85,7 +85,7 @@ footer{border-top:1px solid var(--line); color:var(--muted); font-size:.9rem; pa
 <header class="head">
   <div class="w">
     <!-- To add a photo: upload photo.jpg, then replace AL below with <img src="photo.jpg" alt="Alvin Lirio"> -->
-    <div class="photo"><img src="photo.jpg" alt="Alvin Lirio"></div>
+    <div class="photo">AL</div>
     <div class="who">
       <h1>Alvin E. Lirio, MD, PhD</h1>
       <p class="t1">Postdoctoral Research Associate</p>
@@ -181,7 +181,6 @@ footer{border-top:1px solid var(--line); color:var(--muted); font-size:.9rem; pa
       <h4>Contact</h4>
       <ul>
         <li><a href="mailto:aelirio@up.edu.ph">aelirio@up.edu.ph</a></li>
-        <li><a href="mailto:al574@leicester.ac.uk">al574@leicester.ac.uk</a></li>
         <li><a href="https://orcid.org/0009-0009-5490-6012" target="_blank" rel="noopener">ORCID</a></li>
         <li><a href="https://github.com/ael16" target="_blank" rel="noopener">GitHub</a></li>
       </ul>
